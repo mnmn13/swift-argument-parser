@@ -17,6 +17,7 @@ var package = Package(
     products: [
         .library(
             name: "ArgumentParser",
+            type: .static,
             targets: ["ArgumentParser"]),
         .plugin(
             name: "GenerateManual",
